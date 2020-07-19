@@ -1,3 +1,13 @@
+# Modified-RRT-star-for-dynamic-path-planning
+Refer the Final_report for the complete description of the project.
+
+Map 1
+![](GIF/rrt_star_dynamic_map1.gif)
+
+Map 2
+![](GIF/rrt_star_dynamic_map2.gif)
+
+# Usage
 There are two main files for 2 different maps considered
 
 dynamic_path_planning_map1.py
@@ -17,7 +27,3 @@ dynamic_path_planning_map2.py
 4) Clear these folder before evrytime the main file is tested.
 5) The initial tree is built and stored in the pickle file as rrt_map2.pkl. 
 If this file is missing then the entire tree will be built from scratch.
-
-Two GIFS have been submitted to illustrate the dynamic replanning algorithm.
-1) rrt_star_dynamic_map1.gif
-2) rrt_star_dynamic_map2.gif
